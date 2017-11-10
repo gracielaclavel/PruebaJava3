@@ -27,7 +27,7 @@ public class Conexion
       w.setVisible(true);
       w.setBounds(0,0,300,300);
       w.setTitle("Tercera Evaluacion Sumativa");
-      w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//
     }
     
 }
