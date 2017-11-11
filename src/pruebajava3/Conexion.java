@@ -3,31 +3,36 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pruebajava3;
-import interfaces.Interfaz;
-import javax.swing.JFrame;
+package PruebaJava3;
 
+
+import javax.swing.JFrame;
+import Interfaces.interfaz;
 /**
- * Autor:Graciela Clavel
- * Clase:Conexion.Java
+ **
+ **Autor:Graciela Clavel
+ * Clase:Interfaz.Java
  * fechas 10/11/2017
- * Responsabilidad:Es llamando a la ClaseJFrame y creando objeto
+ * Responsabilidad:Declarando los elementos que voy utilizar
  *
  * @author LAB18
  */
-public class Conexion 
-{
+public class Conexion {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) 
-    {
-      Interfaz w = new Interfaz();
-      w.setVisible(true);
-      w.setBounds(0,0,300,300);
-      w.setTitle("Tercera Evaluacion Sumativa");
-      w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//
+    public static void main(String[] args) {
+     interfaz w = new  interfaz(); 
+     w.setVisible(true);
+     w.setBounds(0, 0, 400, 400);
+     w.setTitle("La Tercera Evaluacion Sumativa");
+     w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+
+
+// TODO code application logic here
     }
     
 }
+
